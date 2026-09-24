@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  width: 1280px;
+  margin: 50px;
+}
+
 header {
   display: flex;
   height: 153px;
@@ -131,6 +137,7 @@ header {
   height: 598px;
   max-width: 1280px;
   padding-right: 48px;
+  position: relative;
   padding-left: 48px;
   display: flex;
   flex-direction: column;
@@ -141,6 +148,16 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.herosection-content {
+  position: absolute;
+  inset: 48px 0 97px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .pure {
   display: flex;
   width: 286.75px;
@@ -151,52 +168,52 @@ header {
   align-items: center;
   justify-content: center;
 }
-.magic{
-    width: 112.17px;
-    height: 24px;
-    background-color: #194553;
-    border-radius: 9999px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    height: 16px;
-    width: 80.17px;
-    font-size: 11px;
+.magic {
+  width: 112.17px;
+  height: 24px;
+  background-color: #194553;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 16px;
+  width: 80.17px;
+  font-size: 11px;
 }
-.expedition{
+.expedition {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 129.58px;
   height: 24px;
-  padding: 4px,12px,4px,12px;
+  padding: 4px, 12px, 4px, 12px;
   font-size: 11px;
   color: #194553;
 }
-.days{
+.days {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 486.23px;
   height: 38px;
   font-size: 30px;
-  color: #D9EFF7;
+  color: #d9eff7;
 }
-.awaits{
+.awaits {
   font-size: 56px;
   color: white;
 }
-.text{
+.text {
   display: flex;
   width: 635.23px;
   height: 88px;
   font-size: 18px;
   justify-content: center;
   align-items: center;
-  color: #D9EFF7;
+  color: #d9eff7;
 }
-.all{
+.all {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -206,7 +223,7 @@ header {
   padding-bottom: 48px;
   gap: 24px;
 }
-.ger{
+.ger {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,9 +232,9 @@ header {
   height: 44px;
   border-radius: 9999px;
   gap: 8px;
-  padding: 12px,16px,12px,16px;
+  padding: 12px, 16px, 12px, 16px;
 }
-.km{
+.km {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +244,7 @@ header {
   height: 44px;
   border-radius: 9999px;
 }
-.nomadic{
+.nomadic {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,7 +254,7 @@ header {
   border-radius: 9999px;
   gap: 8px;
 }
-.expert{
+.expert {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,3 +264,165 @@ header {
   background-color: white;
   gap: 8px;
 }
+.loc {
+  display: flex;
+  height: 68px;
+  width: 896px;
+  max-width: 896px;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 9999px;
+  background-color: white;
+}
+.calender-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 20px;
+  color: #065161;
+}
+.loc-1 {
+  display: flex;
+  width: 260.84px;
+  height: 52px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+}
+.departure {
+  width: 122.44px;
+  height: 16px;
+  font-size: 11px;
+  color: #70787c;
+}
+.june {
+  width: 145.36px;
+  height: 20px;
+  font-size: 14px;
+}
+.loc-2 {
+  display: flex;
+  width: 260.86px;
+  height: 52px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.loc-icon {
+  width: 14px;
+  height: 20px;
+  color: #065161;
+}
+.khuvsgul {
+  display: flex;
+  flex-direction: column;
+}
+.route {
+  width: 117px;
+  height: 16px;
+  font-size: 11px;
+  color: #70787c;
+}
+.Khuvsgul {
+  width: 154.75px;
+  height: 20px;
+  font-size: 14px;
+}
+.explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 196.33px;
+  height: 48px;
+  min-height: 48px;
+  padding: 14px, 32px, 14px, 32px;
+  gap: 8px;
+  background-color: #2b697a;
+  border-radius: 9999px;
+  color: white;
+}
+.explore-text {
+  width: 113.83px;
+  height: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Arrow-icon {
+  width: 10.5px;
+  height: 15px;
+}
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 96.47px;
+  height: 48px;
+  min-height: 48px;
+  background-color: #d9eff7;
+  border-radius: 9999px;
+  padding: 14px, 24px, 14px, 24px;
+  font-size: 14px;
+  color: #065161;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: 1088px;
+  max-width: 1280px;
+  padding: 72px 48px;
+  gap: 48px;
+}
+.container-content-1{
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+  height: 72px;
+}
+.content-1-1{
+  display: flex;
+  flex-direction: column;
+}
+.mountain-icon-text{
+  display: flex;
+  width: 488.48px;
+  height: 16px;
+  gap: 8px;
+}
+.mountain-icon{
+  width: 18.33px;
+  height: 10px;
+  color: #065161;
+}
+.mountain-icon-text{
+  width: 163.59px;
+  height: 16px;
+  font-size: 11px;
+  color: #065161;
+}
+.content-1-1-feature{
+  width: 488.48px;
+  height: 48px;
+  font-size: 40px;
+}
+.content-1-2{
+  width: 439.91px;
+  height: 72px;
+  max-width: 448px;
+  padding-right: 40px;
+  font-size: 15px;
+  color: #40484B;
+}
+.container-content-2{
+  display: flex;
+}
+.
