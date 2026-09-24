@@ -373,7 +373,7 @@ header {
   font-size: 14px;
   color: #065161;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   width: 1280px;
@@ -382,47 +382,284 @@ header {
   padding: 72px 48px;
   gap: 48px;
 }
-.container-content-1{
+.container-content-1 {
   display: flex;
   justify-content: space-between;
   width: 1184px;
   height: 72px;
 }
-.content-1-1{
+.content-1-1 {
   display: flex;
   flex-direction: column;
 }
-.mountain-icon-text{
+.mountain-icon-text {
   display: flex;
   width: 488.48px;
   height: 16px;
   gap: 8px;
 }
-.mountain-icon{
+.mountain-icon {
   width: 18.33px;
   height: 10px;
   color: #065161;
 }
-.mountain-icon-text{
+.mountain-icon-text {
   width: 163.59px;
   height: 16px;
   font-size: 11px;
   color: #065161;
 }
-.content-1-1-feature{
+.content-1-1-feature {
   width: 488.48px;
   height: 48px;
   font-size: 40px;
 }
-.content-1-2{
+.content-1-2 {
   width: 439.91px;
   height: 72px;
   max-width: 448px;
   padding-right: 40px;
   font-size: 15px;
-  color: #40484B;
+  color: #40484b;
 }
-.container-content-2{
+.container-content-2 {
+  display: flex;
+  gap: 24px;
+}
+.Khuvsgul-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: #d9eff7;
+  height: 100%;
+  padding: 32px;
+  position: absolute;
+}
+.khuvsgull {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../e0c329c922973b5b9e8f62271815be48e711f0c9\ \(1\).jpg);
+  width: 680.66px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.khuvsgull img {
+  width: 100%;
+  height: 100%;
+}
+
+.Terkhiin-Tsagaan-content {
+  height: 420px;
+  width: 480px;
+  background-image: url(../953f22841494489dceb8d5a638dae72523955681.jpg);
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.Terkhiin-Tsagaan-content img{
+width: 100%;
+height: 100%;
+}
+.Terkhtsagaan{
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  color: #d9eff7;
+  justify-content: flex-end;
+  padding: 32px;
+}
+.khuvsgul-content-1{
+  display: flex;
+  gap: 8px;
+  width: 616.67px;
+  height: 24px;
+}
+.k-con-1{
+  width: 154.97px;
+  height: 24px;
+  background-color: #D9EFF7;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 11px;
+  color: #194553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.k-con-2{
+  width: 108.48px;
+  height: 24px;
+  padding: 4px 12px;
+  font-size: 11px;
+  color: #141D21;
+  background-color: whitesmoke;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
-.
+.khuvsgul-content-2{
+  width: 616.67px;
+  height: 38px;
+  font-size: 30px;
+  color: white;
+}
+.khuvsgul-content-3{
+  width: 497px;
+  height: 40px;
+  max-width: 512px;
+  font-size: 13px;
+  color: #D9EFF7;
+}
+.khuvsgul-content-4{
+  display: flex;
+  width: 616.24px;
+  height: 24px;
+  padding-top: 8px;
+  gap: 16px;
+  color: #141D21;
+}
+.k-con-4-1{
+  display: flex;
+  gap: 8px;
+  width: 193px;
+  height: 16px;
+}
+.droplet-icon{
+  width: 11px;
+  height: 14px;
+  color: whitesmoke;
+}
+.k-con-4-1-text{
+  width: 177px;
+  height: 16px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.k-con-4-2{
+  width: 101px;
+  height: 16px;
+  gap: 8px;
+  display: flex;
+}
+.up-down-arrow-icon{
+  width: 6px;
+  height: 12px;
+  color: whitesmoke;
+}
+.k-con-4-2-text{
+  width: 92px;
+  height: 16px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.Terkhiin-Tsagaan-content-1{
+  display: flex;
+  width: 415px;
+  height: 28px;
+  gap: 8px;
+  padding-bottom: 4px;
+}
+.t-ts-con-1-1{
+   width: 154.97px;
+  height: 24px;
+  background-color: #D9EFF7;
+  border-radius: 9999px;
+  padding: 4px 12px;
+  font-size: 11px;
+  color: #194553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.t-ts-con-1-2{
+   width: 108.48px;
+  height: 24px;
+  padding: 4px 12px;
+  font-size: 11px;
+  color: #141D21;
+  background-color: whitesmoke;
+  border-radius: 9999px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.Terkhiin-Tsagaan-content-2{
+  width: 415px;
+  height: 38px;
+  font-size: 30px;
+  color: white;
+}
+.Terkhiin-Tsagaan-content-3{
+  width: 415px;
+  height: 40px;
+  max-width: 512px;
+  font-size: 13px;
+  color: #D9EFF7;
+}
+.Terkhiin-Tsagaan-content-4{
+  display: flex;
+  width:415px;
+  height: 24px;
+  padding-top: 8px;
+  gap: 16px;
+  color: #141D21;
+}
+.t-ts-con-4-1{
+  display: flex;
+  width: 129px;
+  height: 16px;
+  gap:8px;
+}
+.boat-icon{
+  width: 14px;
+  height: 14.67px;
+  color: white;
+}
+.t-ts-con-4-1-text{
+  width: 112.55px;
+  height: 16px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.t-ts-con-4-2{
+  width: 100px;
+  height: 16px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leaf-icon{
+  width: 10px;
+  height: 14px;
+  color: white;
+}
+.t-ts-con-4-2-text{
+  width: 86px;
+  height: 16px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.container-content-3{
+  display: flex;
+  gap: 24px;
+}
