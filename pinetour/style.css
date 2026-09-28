@@ -143,7 +143,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("../945f6dc86d60479b0e838fe44013d5e15119a6bd.jpg");
+  background-image: url("./945f6dc86d60479b0e838fe44013d5e15119a6bd.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -439,7 +439,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../e0c329c922973b5b9e8f62271815be48e711f0c9\ \(1\).jpg);
+  background-image: url(./e0c329c922973b5b9e8f62271815be48e711f0c9\ \(1\).jpg);
   width: 680.66px;
   height: 420px;
   display: flex;
@@ -454,7 +454,7 @@ header {
 .Terkhiin-Tsagaan-content {
   height: 420px;
   width: 480px;
-  background-image: url(../953f22841494489dceb8d5a638dae72523955681.jpg);
+  background-image: url(./953f22841494489dceb8d5a638dae72523955681.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -676,7 +676,7 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(../53d5622eacfb1c7902057a2c2aa0a86da0855965.jpg);
+  background-image: url(./53d5622eacfb1c7902057a2c2aa0a86da0855965.jpg);
   width: 480px;
   height: 380px;
   display: flex;
@@ -691,7 +691,7 @@ header {
 .Amarbaysgalant-content {
   height: 380px;
   width: 680px;
-  background-image: url(../734b14768a0409fb5668a8c7956b43ee5ae9a771.jpg);
+  background-image: url(./734b14768a0409fb5668a8c7956b43ee5ae9a771.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1100,7 +1100,10 @@ header {
   display: flex;
   width: 782px;
   height: 245px;
-  background-color: #D9EFF766;
+  background-color: white;
+  justify-content: space-between;
+  padding: 24px;
+  border-radius: 8px;
 }
 .sec-3-day5-all{
   width: 510px;
@@ -1112,4 +1115,143 @@ header {
 .sec-3-day5-pic{
   width: 224px;
   height: 176px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.sec-3-day5-1{
+  display: flex;
+  width: 510px;
+  height: 24px;
+  gap: 8px;
+}
+.day5-1-1{
+  width: 194px;
+  height: 24px;
+  background-color: #2B697A;
+  color: white;
+  border-radius: 9999px;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.day5-1-2{
+  width: 158px;
+  height: 20px;
+  font-size: 13px;
+  color: #70787C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-3-day5-2{
+  width: 510px;
+  height: 34px;
+  padding-top: 4px;
+  font-size: 22px;
+}
+.sec-3-day5-3{
+  font-size: 13px;
+  width: 509px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #40484B;
+}
+.sec-3-day5-4{
+  display: flex;
+  gap: 12px;
+}
+.sec-3-day5-4-1{
+  width: 179px;
+  height: 24px;
+  background-color: #E6EFF5;
+  border-radius: 9999px;
+  gap: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-3-day5-4-1-text{
+  color: #194553;
+  font-size: 11px;
+  width: 137px;
+  height: 16px;
+}
+.paw-icon{
+  width: 14px;
+  height: 12px;
+}
+.sec-3-day5-4-2{
+  width: 200px;
+  height: 24px;
+  background-color: #E6EFF5;
+  border-radius: 9999px;
+  gap: 4px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #194553;
+}
+.day5-pic{
+  width: 224px;
+  height: 176px;
+  border-radius: 8px;
+}
+.Pricing-tiers-Section{
+  display: flex;
+  width: 1280px;
+  height: 933px;
+  gap: 72px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Pricing-section-header{
+  display: flex;
+  flex-direction: column;
+  width: 672px;
+  height: 144px;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-header-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9EFF7;
+  border-radius: 9999px;
+  font-size: 11px;
+  color: #065161;
+  width: 192px;
+  height: 24px;
+}
+.pricing-header-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 672px;
+  height: 48px;
+  font-size: 40px;
+}
+.pricing-header-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 672px;
+  height: 56px;
+  color: #40484B;
+  font-size: 18px;
+}
+.pricing-section-container{
+  display: flex;
+  gap: 32px;
+}
+.pricing-container-budget{
+  
 }
