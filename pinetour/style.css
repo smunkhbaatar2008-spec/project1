@@ -1890,3 +1890,129 @@ header {
   height: 14px;
   font-size: 11px;
 }
+.last-sec-1-2{
+  width: 157px;
+  height: 204px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.lst-1{
+  width: 157px;
+  height: 28px;
+  font-size: 14px;
+}
+.lst-2{
+  width: 157px;
+  height: 20px;
+  color: #40484B;
+  font-size: 13px;
+}
+.last-sec-1-3{
+  width: 157px;
+  height: 204px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.last-sec1{
+  width: 157px;
+  height: 28px;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+.last-sec2{
+  width: 157px;
+  height: 20px;
+  font-size: 13px;
+  color: #40484B;
+}
+.last-sec-1-4{
+  width: 362px;
+  height: 204px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.last-con1{
+  width: 362px;
+  height: 20px;
+  font-size: 14px;
+}
+.last-con2{
+  width: 362px;
+  height: 40px;
+  color: #40484B;
+  font-size: 13px;
+}
+.last-con3{
+  display: flex;
+  width: 362px;
+  height: 52px;
+  padding: 4px;
+  background-color: white;
+  border-radius: 9999px;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.last-con-3-1{
+  width: 208px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #70787C;
+}
+.last-con-3-2{
+  width: 101px;
+  height: 44px;
+  color: white;
+  background-color: #2B697A;
+  border-radius: 9999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.last-con4{
+  width: 362px;
+  height: 44px;
+  padding-top: 8px;
+  font-size: 11px;
+  color: #70787C;
+}
+.last-sec-2{
+  display: flex;
+  width: 1184px;
+  height: 44px;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+.last-sec-2-1{
+  width: 395px;
+  height: 20px;
+  font-size: 13px;
+  color: #40484B;
+}
+.last-sec-2-2{
+  display: flex;
+  width: 660px;
+  height: 16px;
+  gap: 24px;
+}
+.lasst-1{
+  width: 82 px;
+  height: 16px;
+  font-size: 11px;
+  color: #40484B;
+}
+.lasst-6{
+  width: 299px;
+  height: 16px;
+  font-size: 11px;
+  color: #40484B;
+}
